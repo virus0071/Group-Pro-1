@@ -25,7 +25,7 @@ $("#add-V").on("click", function(e){
         var q = $("<p>").text(titles);
   
         
-        resultDiv.append(q);
+        
         resultDiv.append("<a href='" + videoURL + "'class='button button-highlight button-pill button-tiny'>'" + "YouTube Video "+ "'</a>");
         
 
