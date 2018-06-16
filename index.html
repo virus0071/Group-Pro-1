@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>YouTube</title>
+
+
+  <link rel='icon' href='2.png' type='image/x-icon'/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="buttons.css">
+  <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    
+  
+
+
+</head>
+
+<body>
+    
+
+    <div class="container">
+        <h1>Video Search</h1>
+        <div id="buton-view"></div>
+        <div id="video-view"></div>
+
+        <form id="addV">
+            <label for="video-input">Search videos</label>
+            <br>
+            <input type="text" id="v-input">
+            <br>
+
+            <input id="add-V" type="submit" value="search">
+
+        </form>
+
+
+        <div id="vresults"></div>
+        
+    
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="push"></div>
+  <footer class="footer">
+    <div class="container">
+        <button class="button button-3d button-action button-circle button-jumbo" id="support"><i class="fa fa-thumbs-up"></i></button>
+        <button class="button button-3d button-action button-circle button-jumbo button-caution" id="unsupport"><i class="fa fa-thumbs-down"></i></button>
+        
+    </div>
+
+    <div id="supportNum"></div>
+    </footer>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="youtube-API.js"></script>
+    
+
+</body>
+</html>
