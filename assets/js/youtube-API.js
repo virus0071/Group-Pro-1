@@ -23,9 +23,7 @@ $("#add-V").on("click", function(e){
       var videoURL = "https://www.youtube.com/watch?v=" + videoIds;
       var p = $("<p>").text("Video ID: " + videoIds);
       var q = $("<p>").text(results[i].snippet.title);
-      var width = "400px";
-      var height = "300px";
-      
+
       resultDiv.append(q);
       resultDiv.append("<a href='" + videoURL + "'class='button button-highlight button-pill button-large'>'" + "YouTube Video "+ "'</a>");
       
@@ -58,7 +56,7 @@ $("#add-V").on("click", function(e){
 
   var support = 0;
   var unsupport = 0;
-  var buttonClicked = 0;
+  
 
   $("#support").on("click", function(e){
     e.preventDefault();
